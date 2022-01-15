@@ -23,7 +23,6 @@ html {
 
 .container {
   width: 100%;
-  max-width: 1200px;
   padding: 0 6%;
   margin: 0 auto;
 }
@@ -48,16 +47,16 @@ header section css style start
   font-size: 102%;
 }
 
-.menu__bar > ul {
+.menu-bar > ul {
   display: flex;
 }
 
-.menu__bar > ul > li {
+.menu-bar > ul > li {
   list-style-type: none;
   margin-right: 3px;
 }
 
-.menu__bar > ul li a {
+.menu-bar > ul li a {
   text-decoration: none;
   padding: 7px 15px;
   color: #3a3a3a;
@@ -116,19 +115,20 @@ start sponsor section
 -------------- */
 
 .sponsor-section {
-  width: 90%;
-  margin: 50px auto;
-  padding: 50px 60px;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-column-gap: 7px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0
+  display: flex;
+  
   align-items: center;
   justify-content: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.sponsor-section .sponsor-img {
-  width: 60%;
+.sponsor-section .product-img {
+  width: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
   display: inline-block;
 }
 
@@ -140,18 +140,18 @@ end sponsor section style
 start product section style
 -------------- */
 
-.product__section {
+.product-section {
   margin-top: 100px;
 }
 
-.product__section > h3 {
+.product-section > h3 {
   text-align: center;
   font-weight: 600;
   font-size: 1.8rem;
   color: #3a3a3a;
 }
 
-.product__section--products {
+.product-section-products {
   width: 95%;
   margin: 20px auto;
   display: grid;
@@ -211,7 +211,7 @@ start product section style
   font-size: 0.9rem;
 }
 
-.product__see-more {
+.product-see-more {
   margin-top: 50px;
   text-align: right;
   font-family: inherit;
@@ -220,7 +220,7 @@ start product section style
   padding-right: 25px;
 }
 
-.product__see-more > a {
+.product-see-more > a {
   color: var(--primary-color);
   text-decoration: none;
 }

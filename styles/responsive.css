@@ -9,7 +9,7 @@
     display: block;
     text-align: center;
   }
-  .menu__bar > ul {
+  .menu-bar > ul {
     display: none;
   }
   .banner-section {
@@ -37,11 +37,11 @@
     text-align: center;
     padding: 0 35px;
   }
-  .partner-section {
+  .sponsor-section {
     grid-template-columns: repeat(4, 1fr);
     row-gap: 15px;
   }
-  .product__section--products {
+  .product-section-products {
     grid-template-columns: 1fr;
   }
   .product-img {
@@ -55,10 +55,13 @@
     width: 100%;
     margin-bottom: 5px;
   }
-  .details {
+  .something {
     width: 100%;
     margin-top: 25px;
     margin-left: 0;
+  }
+  .footer-content {
+    width: 100%;
   }
 }
 /* tableet screen  */
@@ -67,14 +70,11 @@
   .container {
     padding: 0 3%;
   }
-  .product__section--products {
+  .sponsor-section-products {
     grid-template-columns: 1fr 1fr;
   }
   .banner-left h1 {
     font-size: 34px;
     line-height: 50px;
-  }
-  .newslatter-img {
-    background-position: right;
   }
 }
